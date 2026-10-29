@@ -1,0 +1,20 @@
+# Local database credentials
+/config/database.php
+
+# Admin setup/reset scripts
+/create_admin.php
+/reset_admin.php
+
+# Environment secrets
+.env
+.env.*
+
+# Dependencies and temporary files
+/vendor/
+/node_modules/
+*.log
+*.zip
+
+# Local editor settings
+.vscode/
+/includes/test_db.phpgit add .gitignore
